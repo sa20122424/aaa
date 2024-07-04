@@ -1,0 +1,825 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+ 
+
+ 
+}
+
+
+
+.conteiner {
+    width: 1104px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ul-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.a-header {
+    color: rgb(146, 163, 178);
+
+}
+
+.button-header {
+    color: white;
+    width: 173px;
+    padding: 16px;
+    background-color: #BA4270;
+    border: none;
+    border-radius: 330px;
+
+}
+
+.h1-tel {
+    font-size: 70px;
+    width: 546px;
+    font-family: "DM Serif Display";
+    color: #36536B;
+
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+
+}
+
+.tel-text {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.all-logo {
+    width: 1440px;
+    background-color: #1B262F;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: -150px;
+
+
+
+}
+
+.logo-text {
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h2-logo {
+    font-size: 48px;
+    font-family:
+        "DM Serif Display";
+}
+
+.p-logo {
+    font-size: 15px;
+    width: 445px;
+    color: #FBFCFE;
+    font-family: "DM Serif Display";
+
+}
+
+.button-logo {
+    width: 130px;
+    padding: 16px;
+    background-color: #1B262F;
+    border: solid white 1px;
+    color: white;
+    border-radius: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 536px;
+
+
+
+}
+
+.img-burger {
+    display: none;
+}
+.cod-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 125px   ;
+}
+.cod{
+    width: 445px;
+    background-color: #1B262F;
+    display: flex;
+   
+ border-radius: 10px;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  box-shadow: 0 0 60px 20px gray;
+}
+.cod-crug{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 440px;
+   padding: 10px;
+border-radius: 10px 10px 0 0;
+    background-color: #2e3c48;
+    
+}
+.bol{
+    width: 16px;
+    height: 16px;
+    background-color: #BA4270;
+    border-radius: 50%;
+}
+.bol2{
+    width: 16px;
+    height: 16px;
+    background-color:  #527695;
+    ;
+    border-radius: 50%;
+}
+.bol3{
+    width: 16px;
+    height: 16px;
+    background-color:#3f5264;
+    ;
+    ;
+    border-radius: 50%;
+}
+.p-cod{
+    width: 341px;
+    font-size: 13px;
+    padding: 20px;
+ 
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  line-height: 20px;
+}
+.p-cod-text{
+    
+    width: 445px;
+    line-height: 25px;
+  color:rgb(146, 163, 178); ;
+}
+.text-cod{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  gap: 20px;
+
+    flex-direction: column ;
+}
+.all-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img-footer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ul-footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.p-cod-text1{
+    text-align: center; 
+    width: 350px;  
+   
+    line-height: 25px;
+  color:rgb(146, 163, 178); ;
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   gap: 10px ; 
+
+}
+.h1-tel1{
+    font-size: 18px;
+   text-align: center   ;
+    font-family: "DM Serif Display";
+    color: #36536B; 
+}
+
+@media only screen and (max-width: 1452px)
+{
+    .p-cod-text1{
+        text-align: center; 
+        width: 150px;  
+       font-size: 19px;
+        line-height: 25px;
+      color:rgb(146, 163, 178); ;
+    }
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    padding: 10px;
+   gap: 50px    ;
+   flex-wrap: wrap;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      gap: 20px;
+  max-width: 350px;
+  width: 100%;
+        flex-direction: column ;
+    
+    }
+    .text-cod{
+        display: flex;
+        flex-direction: column;
+      
+        align-items: center;
+    }
+    .p-cod-text{
+      text-align: center;
+
+        width: 350px;  
+       
+        line-height: 25px;
+      color:rgb(146, 163, 178); ;
+    }
+    .h1-tel1{
+        font-size: 18px;
+       
+        font-family: "DM Serif Display";
+        color: #36536B; 
+    }
+    .cod-all{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+      
+        gap: 125px   ;
+        flex-direction: column  ;
+    }
+
+   
+ 
+}
+
+@media only screen and (max-width: 1333px) {
+    .conteiner {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1004px;
+        padding: 20px;
+        padding-top: 40px;
+        margin: 0 auto;
+
+    }
+    .cod-all{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+       
+        gap: 125px   ;
+        flex-direction: column  ;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+
+    }
+
+    .all-logo {
+        width: 1200px;
+        background-color: #1B262F;
+        padding: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin-left: -100px;
+
+        flex-direction: column;
+    }
+
+    .tel-text {
+        gap: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 700px;
+        margin-left: 30px;
+
+
+    }
+
+    .img-tel {
+        top: 100px;
+        position: absolute;
+    }
+
+    .h1-tel {
+        font-size: 70px;
+        width: 746px;
+        font-family: "DM Serif Display";
+        color: rgb(146, 163, 178);
+        position: relative;
+        text-align: center;
+    }
+
+    .img-burger {
+        display: none;
+    }
+
+    .logo-text {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        top: 1300px;
+    }
+
+    .logo {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 536px;
+        position: relative;
+        top: -100px;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .p-logo {
+        font-size: 15px;
+        width: 405px;
+        color: #FBFCFE;
+        font-family: "DM Serif Display";
+        text-align: center;
+    }
+    .img-footer{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    
+    }
+    .footer{
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-wrap: wrap;
+
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      gap: 20px;
+      width: 350px;
+        flex-direction: column ;
+    }
+    .p-cod-text1{
+        text-align: center; 
+        width: 250px;  
+       
+        line-height: 25px;
+      color:rgb(146, 163, 178); ;
+    }
+
+
+}
+
+@media only screen and (max-width: 868px) {
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: 150px;
+    }
+    .conteiner {
+        max-width: 704px;
+        width: 100%;
+        padding: 20px;
+        padding-top: 40px;
+
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .img-tel {
+        width:400px;
+        top: 100px;
+        position: absolute;
+        
+    }
+
+  
+
+    .all-logo {
+        width: 900px;
+        background-color: #1B262F;
+        padding: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+   
+
+        flex-direction: column;
+    }
+    .img-footer{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    
+    }
+    .footer{
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    flex-direction: column;
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .img-tel {
+        width:400px;
+        top: 50px;
+      left: 150px;
+        position: absolute;
+    }
+   
+
+}
+@media only screen and (max-width: 738px) {
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+
+    }
+    .conteiner {
+        max-width: 1004px;
+        width: 100%;
+        padding: 20px;
+        padding-top: 40px;
+      
+
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+        gap: 50px;
+
+    }
+    .ul-header {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+       
+
+    }
+    .img-tel {
+        width:400px;
+        top: 100px;
+        position: absolute;
+    }
+    .h1-tel {
+        text-align: center;
+        font-size: 70px;
+        width: 711px;
+        font-family: "DM Serif Display";
+        color: rgb(146, 163, 178);
+    }
+    .tel-text {
+        gap: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 700px;
+       margin-left: 0px;
+
+    }
+    .all-logo {
+        width: 900px;
+        background-color: #1B262F;
+        padding: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin-left: -100px;
+
+        flex-direction: column;
+    }
+    .logo-text {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        top: 1420px;
+    }
+    .img-footer{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    
+    }
+    .footer{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    flex-direction: column;
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .ul-footer{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        
+    }
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .img-tel {
+        width:400px;
+        top: 50px;
+     left: 50px;
+        position: absolute;
+    }
+   
+
+   
+
+    
+
+   
+}
+@media only screen and (max-width: 547px) {
+    .logo-text {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        top: 1300px;
+    }
+    .cod-all{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+      
+        gap: 125px   ;
+        flex-direction: column  ;
+    }
+  
+}
+
+
+
+@media only screen and (max-width: 575px) {
+
+    .nav {
+        display: none;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .img-burger {
+        display: block;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .conteiner {
+        width: 100%;
+        max-width: 1004px;
+        margin: 0 auto;
+        padding: 20px;
+        padding-top: 40px;
+
+    }
+    .img-tel {
+        width:400px;
+        top: 50px;
+      left: -50px;
+        position: absolute;
+    }
+    .h1-tel {
+        text-align: center;
+        top: -200px;
+        font-size: 40px;
+        width: 411px;
+       margin-left: 5px;
+        font-family: "DM Serif Display";
+        color: rgb(146, 163, 178);
+    }
+    .tel-text {
+        gap: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 700px;
+       margin-left: 0px;
+
+    }
+   
+    .all-logo {
+        width: 700px;
+        background-color: #1B262F;
+        padding: 250px;
+        margin-top: -200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin-left: -100px;
+
+       
+    }
+    .logo-text {
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+       
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        top: 1170px;
+    }
+    .logo {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 536px;
+        position: relative;
+        top: -100px;
+        justify-content: center;
+        align-items: center;
+    
+
+
+    }
+    .img-footer{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    
+    }
+    .footer{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    flex-direction: column;
+    }
+    .ul-footer{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        
+    }
+    .all-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10px;
+    }
+    .cod-all{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+      margin-left: 150px;
+        gap: 125px   ;
+        flex-direction: column  ;
+    }
+   
+
+}
